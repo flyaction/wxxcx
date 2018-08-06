@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/contact/contact",
+    "pages/detail/detail",
+    "pages/article/article"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e5e86",
+    "navigationBarTitleText": "邢栋博客",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor":"#2e5e86",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/ic_home_normal.png",
+      "selectedIconPath": "images/ic_home_pressed.png"
+    },
+    {
+      "pagePath": "pages/article/article",
+      "text": "文章列表",
+      "iconPath": "images/ic_join_normal.png",
+      "selectedIconPath": "images/ic_join_normal.png"
+    },{
+      "pagePath": "pages/contact/contact",
+      "text": "关于我",
+      "iconPath": "images/ic_join_normal.png",
+      "selectedIconPath": "images/ic_join_normal.png"
+    }]
+  }
+}
